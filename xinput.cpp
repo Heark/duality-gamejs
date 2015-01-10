@@ -1,3 +1,13 @@
+// Enable controller use on run.
+for(run)
+{
+  void XInputEnable(
+  _In_  BOOL enable
+);
+
+}
+
+
 typedef struct _XINPUT_GAMEPAD {
   WORD  wButtons;
   BYTE  bLeftTrigger;
